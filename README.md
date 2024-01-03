@@ -10,5 +10,12 @@ This is a reposotory that includes paper and code about Multi-Modal-based PHM (f
 
 Open-source dataset
 -----
-
+| Index 	| Year 	| Dataset Name 	| Component 	| Generation 	| Working Condition 	| Signal Type 	| Details 	| Dataset Link 	|
+|-------	|------	|--------------	|-----------	|------------	|-------------------	|-------------	|---------	|--------------	|
+| 1     	|      	|              	|           	|            	|                   	|             	|         	|              	|
+| 2     	|      	|              	|           	|            	|                   	|             	|         	|              	|
+| 3     	|      	|              	|           	|            	|                   	|             	|         	|              	|
+| 4     	|      	|              	|           	|            	|                   	|             	|         	|              	|
+| 5     	|      	|              	|           	|            	|                   	|             	|         	|              	|
+| 6     	|      	|              	|           	|            	|                   	|             	|         	|              	|
 
