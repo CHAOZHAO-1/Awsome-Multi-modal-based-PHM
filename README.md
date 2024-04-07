@@ -13,6 +13,39 @@ We will keep updating this library.
 
 ## Papers
 
+| Year 	| Index 	| Title                                                                                                                                                                       	| modal                                     	|
+|------	|-------	|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|-------------------------------------------	|
+| 2024 	| 1     	| Multi-modal data cross-domain fusion network for gearbox fault   diagnosis under variable operating conditions                                                              	| vibration signal+infrared image           	|
+|      	| 2     	| Multi-sensor multi-mode fault diagnosis for lithium-ion   battery packs with time series and discriminative features                                                        	| current+voltage+temperature               	|
+|      	| 3     	| Deep feature interactive network for machinery fault diagnosis   using multi-source heterogeneous data                                                                      	| vibration signal+infrared image           	|
+|      	| 4     	| A synchronization-induced cross-modal contrastive learning   strategy for fault diagnosis of electromechanical systems under   semi-supervised learning with current signal 	| vibration signal+current signal           	|
+|      	| 5     	| Multi-sensor fusion fault diagnosis method of windturbine   bearing based on adaptive convergent viewable neural networks                                                   	| vibration signal+acoustic signal          	|
+| 2023 	| 6     	| A New Multisensor Partial Domain Adaptation Method for   Machinery Fault Diagnosis Under Different Working Conditions                                                       	| vibration signal+acoustic signal          	|
+|      	| 7     	| AI-enabled and multimodal data driven smart health monitoring   of wind power systems: A case study                                                                         	| image+acoustic                            	|
+|      	| 8     	| Online Fault Diagnosis of Harmonic Drives Using   Semi-supervised Contrastive Graph Generative Network via Multimodal data                                                  	| motor encoder+hall current sensor.        	|
+|      	| 9     	| Cross-modal Fusion Convolutional Neural Networks with Online   Soft Label Training Strategy for Mechanical Fault Diagnosis                                                  	| acoustic+vibration                        	|
+|      	| 10    	| An Online Multiple Open-Switch Fault Diagnosis Method for   T-Type Three-Level Inverters Based on Multimodal Deep Residual Filter Network                                   	| current + voltage                         	|
+|      	| 11    	| Multi-modal information analysis for fault diagnosis with   time-series data from power transformer                                                                         	| infrared image+dissolved gas data         	|
+|      	| 12    	| Multi-Sensor Fault Diagnosis for Misalignment and Unbalance   Detection using Machine Learning                                                                              	| Infrared image+vibration                  	|
+|      	| 13    	| A Residual Multihead Self-Attention Network Using Multimodal   Shallow Feature Fusion for Motor Fault Diagnosis                                                             	| vibration signal+current signal           	|
+| 2022 	| 14    	| Multi-heterogeneous sensor data fusion method via   convolutional neural network for fault diagnosis of wheeled mobile robot                                                	| inertial measurement unit+encoder         	|
+|      	| 15    	| Bearing fault diagnosis method based on attention mechanism   and multilayer fusion network                                                                                 	| vibration signal+current signal           	|
+|      	| 16    	| Intelligent worm gearbox fault diagnosis under various working   conditions using vibration, sound and thermal features                                                     	| vibration+sound+ thermal                  	|
+|      	| 17    	| A Multisensor Information Fusion Method for High-Reliability   Fault Diagnosis of Rotating Machinery                                                                        	| Infrared image+vibration                  	|
+|      	| 18    	| Multisensory data fusion-based deep learning approach for   fault diagnosis of an industrial autonomous transfer vehicle                                                    	| vibration signal+acoustic signal          	|
+|      	| 19    	| Multiview enhanced fault diagnosis for wind turbine gearbox   bearings with fusion of vibration and current signals                                                         	| vibration signal+current signal           	|
+|      	| 20    	| A multi–modal unsupervised fault detection system based on   power signals and thermal imaging via deep AutoEncoder neural network                                          	| thermal images+current+power measurements 	|
+| 2021 	| 21    	| Bearing fault diagnosis based on vibro-acoustic data fusion   and 1D-CNN network                                                                                            	| vibration signal+acoustic signal          	|
+|      	| 22    	| Novel Three-Stage Feature Fusion Method of Multimodal Data for   Bearing Fault Diagnosis                                                                                    	| vibration signal+ torque signals          	|
+|      	| 23    	| A Fusion CWSMM-based Framework for Rotating Machinery Fault   Diagnosis under Strong Interference and Imbalanced Case                                                       	| Infrared image+vibration                  	|
+| 2020 	| 24    	| Dynamic Routing-based Multimodal Neural Network for   Multi-sensory Fault Diagnosis of Induction Motor                                                                      	| vibration signal+current signal           	|
+| 2019 	| 25    	| Multilevel Information Fusion for Induction Motor Fault   Diagnosis                                                                                                         	| vibration signal+current signal           	|
+|      	| 26    	| Thermal Imaging and Vibration-Based Multisensor Fault   Detection for Rotating Machinery                                                                                    	| Infrared image+vibration                  	|
+| 2018 	| 27    	| Deep Coupling Autoencoder for Fault Diagnosis With Multimodal   Sensory Data                                                                                                	| vibration signal+acoustic signal          	|
+| 2016 	| 28    	| Gearbox fault diagnosis based on deep random forest fusion of   acoustic and vibratory signals                                                                              	| vibration signal+acoustic signal          	|
+|      	|       	|                                                                                                                                                                             	|                                           	|
+
+
 
 ##  Open-source dataset
 |         Type         	| Index 	| Year 	|  Dataset Name  	| Component 	| Sensor Number 	|      Modality      	|    Data Link    	|
