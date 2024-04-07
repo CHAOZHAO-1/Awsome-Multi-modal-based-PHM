@@ -5,13 +5,16 @@ This repository contains papers, code, and datasets related to multi-modal-based
 We will keep updating this library.  
 
 # Contents
-- [Papers](#papers)
+- [Papers](#section-id1)
  
-- [Data](#data)
+- [Data](#section-id2)
 
-- [Code](#code)
+- [Code](#section-id3)
 
 ## Papers
+<a name="section-id1"></a>
+
+### Heterogeneous sensors
 
 | Year 	| Index 	| Title                                                                                                                                                                       	| modal                                     	|
 |------	|-------	|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|-------------------------------------------	|
@@ -44,10 +47,24 @@ We will keep updating this library.
 | 2018 	| 27    	| Deep Coupling Autoencoder for Fault Diagnosis With Multimodal   Sensory Data                                                                                                	| vibration signal+acoustic signal          	|
 | 2016 	| 28    	| Gearbox fault diagnosis based on deep random forest fusion of   acoustic and vibratory signals                                                                              	| vibration signal+acoustic signal          	|
 |      	|       	|                                                                                                                                                                             	|                                           	|
+### Homogeneous sensors
 
-
+| Year 	| Index 	| Title                                                                                                                                      	| modal     	|
+|------	|-------	|--------------------------------------------------------------------------------------------------------------------------------------------	|-----------	|
+| 2024 	| 1     	| MIFDELN: A multi-sensor information fusion deep ensemble   learning network for diagnosing bearing faults in noisy scenarios               	| Vibration 	|
+|      	| 2     	| Cross-Sensor Correlative Feature Learning and Fusion for   Intelligent Fault Diagnosis                                                     	| Vibration 	|
+| 2023 	| 3     	| MIM-Graph: A multi-sensor network approach for fault diagnosis   of HSR Bogie bearings at the IoT edge via mutual information maximization 	| Vibration 	|
+|      	| 4     	| Multi-sensor information fusion and coordinate attention-based   fault diagnosis method and its interpretability research                  	| Vibration 	|
+|      	| 5     	| A signal-to-image fault classification method based   onmulti-sensor data for robotic grinding monitoring                                  	| Vibration 	|
+|      	| 6     	| A fault diagnosis method based on feature-level fusion of   multi-sensor information for rotating machinery                                	| Vibration 	|
+| 2022 	| 7     	| Intelligent Mechanical Fault Diagnosis Using Multisensor   Fusion and Convolution Neural Network                                           	| Vibration 	|
+|      	| 8     	| Bearing Fault Diagnosis Method Based on Complementary Feature   Extraction and Fusion of Multisensor Data                                  	| Vibration 	|
+|      	| 9     	| Mix-VAEs: A novel multisensor information fusion model for   intelligent fault diagnosis                                                   	| Vibration 	|
+| 2021 	| 10    	| A novel approach of multisensory fusion to collaborative fault   diagnosis in maintenance                                                  	| Vibration 	|
+|      	| 11    	| Multi-sensor gearbox fault diagnosis by using feature-fusion   covariance matrix and multi-Riemannian kernel ridge regression              	| Vibration 	|
 
 ##  Open-source dataset
+<a name="section-id2"></a>
 |         Type         	| Index 	| Year 	|  Dataset Name  	| Component 	| Sensor Number 	|      Modality      	|    Data Link    	|
 |:--------------------:	|:-----:	|:----:	|:--------------:	|:---------:	|:-------------:	|:------------------:	|:---------------:	|
 |   Homogenous sensor  	|   1   	| 2015 	|      CWRU      	|  Bearing  	|       2       	|      vibration     	| [[data link]()] 	|
