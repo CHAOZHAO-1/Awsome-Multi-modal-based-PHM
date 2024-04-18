@@ -20,6 +20,12 @@ We will keep updating this library.
 
 ### Survey
 
+| Year 	| Index 	| Title                                                                                                                                                                                                 	|
+|------	|-------	|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| 2024 	| 1     	| Multi-Sensor data fusion in intelligent fault diagnosis of   rotating machines: A comprehensive review    [[Measurement   2024](https://www.sciencedirect.com/science/article/pii/S0263224124005438)] 	|
+| 2022 	| 2     	| A scoping review on multi‑fault diagnosis of industrial   rotating machines using multi‑sensor data fusion                                                                                            	|
+| 2020 	| 3     	| Multi-sensor measurement and data fusion technology for   manufacturing process monitoring: a literature review                                                                                       	|
+| 2018 	| 4     	| Development and trend of condition monitoring and fault   diagnosis of multi-sensors information fusion for rolling bearings: a review                                                                	|
 
 ### Heterogeneous sensors
 <a name="section-id4"></a>
