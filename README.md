@@ -6,6 +6,10 @@ We will keep updating this library.
 
 # Contents
 - [Papers](#section-id1)
+-   - [1.1 Survey](#section-id1)
+-   - [1.2 Regular Paper](#section-id4)
+-   -   - [1.2.1. Heterogeneous sensors-based Fault Diagnosis](#section-id4)
+-   -   - [1.2.2. Homogeneous sensors-based Fault Diagnosis ](#section-id5)
  
 - [Data](#section-id2)
 
@@ -14,8 +18,11 @@ We will keep updating this library.
 ## Papers
 <a name="section-id1"></a>
 
-### Heterogeneous sensors
+### Survey
 
+
+### Heterogeneous sensors
+<a name="section-id4"></a>
 | Year 	| Index 	| Title                                                                                                                                                                       	| modal                                     	|
 |------	|-------	|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|-------------------------------------------	|
 | 2024 	| 1     	| Multi-modal data cross-domain fusion network for gearbox fault   diagnosis under variable operating conditions                                                              	| vibration signal+infrared image           	|
@@ -48,7 +55,7 @@ We will keep updating this library.
 | 2016 	| 28    	| Gearbox fault diagnosis based on deep random forest fusion of   acoustic and vibratory signals                                                                              	| vibration signal+acoustic signal          	|
 |      	|       	|                                                                                                                                                                             	|                                           	|
 ### Homogeneous sensors
-
+<a name="section-id5"></a>
 | Year 	| Index 	| Title                                                                                                                                      	| modal     	|
 |------	|-------	|--------------------------------------------------------------------------------------------------------------------------------------------	|-----------	|
 | 2024 	| 1     	| MIFDELN: A multi-sensor information fusion deep ensemble   learning network for diagnosing bearing faults in noisy scenarios               	| Vibration 	|
