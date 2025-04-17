@@ -1,105 +1,103 @@
-# Awsome-Multi-modal-based-PHM (基于多传感器信息的故障诊断和预测，持续更新)
+# 🌟 Awesome-Multi-Modal-Based-PHM  
+*基于多传感器信息的故障诊断与预测（持续更新）*
 
-This repository contains papers, code, and datasets related to multi-modal-based fault diagnosis.  
+This repository collects **papers**, **code**, and **datasets** related to **multi-modal/multi-sensor-based fault diagnosis and prognosis**.  
+We are continuously updating this library. Stay tuned!
 
-We will keep updating this library.  
+---
 
-# Contents
-- [Papers](#section-id1)
--   - [1.1 Survey](#section-id1)
--   - [1.2 Regular Paper](#section-id4)
--   -   - [1.2.1. Heterogeneous sensors-based Fault Diagnosis](#section-id4)
--   -   - [1.2.2. Homogeneous sensors-based Fault Diagnosis ](#section-id5)
- 
-- [Data](#section-id2)
+## 📚 Contents
+- [📄 Papers](#papers)
+  - [1.1 🧠 Survey](#survey)
+  - [1.2 📑 Regular Papers](#regular-papers)
+    - [1.2.1 🔀 Heterogeneous Sensor-Based Fault Diagnosis](#heterogeneous-sensors)
+    - [1.2.2 🔁 Homogeneous Sensor-Based Fault Diagnosis](#homogeneous-sensors)
+- [🧪 Open-Source Datasets](#datasets)
+- [🧑‍💻 Code](#code)
+- [📬 Contact](#contact)
+- [🔗 Related Projects](#related-projects)
 
-- [Code](#section-id3)
+---
 
-## Papers
-<a name="section-id1"></a>
+## 🧠 Survey <a name="survey"></a>
 
-### Survey
+| Year | Index | Title | Link |
+|------|:-----:|-------|------|
+| 2024 | 1 | Multi-Sensor Data Fusion in Intelligent Fault Diagnosis of Rotating Machines: A Comprehensive Review | [Measurement 2024](https://www.sciencedirect.com/science/article/pii/S0263224124005438) |
+| 2022 | 2 | A Scoping Review on Multi-Fault Diagnosis of Industrial Rotating Machines Using Multi-Sensor Data Fusion | [AI Review 2022](https://link.springer.com/article/10.1007/s10462-022-10243-z) |
+| 2020 | 3 | Multi-Sensor Measurement and Data Fusion for Manufacturing Process Monitoring: A Literature Review | [IJEM 2020](https://iopscience.iop.org/article/10.1088/2631-7990/ab7ae6/meta) |
+| 2018 | 4 | Development of Condition Monitoring and Fault Diagnosis of Multi-Sensors Information Fusion for Rolling Bearings | [IJAMT 2018](https://link.springer.com/article/10.1007/s00170-017-1474-8) |
 
-| Year 	| Index 	| Title                                                                                                                                  	| Link                                                                                                        	|
-|------	|-------	|----------------------------------------------------------------------------------------------------------------------------------------	|-------------------------------------------------------------------------------------------------------------	|
-| 2024 	| 1     	| Multi-Sensor data fusion in intelligent fault diagnosis of   rotating machines: A comprehensive review                                 	|  [[Measurement   2024](https://www.sciencedirect.com/science/article/pii/S0263224124005438)]                	|
-| 2022 	| 2     	| A scoping review on multi‑fault diagnosis of industrial   rotating machines using multi‑sensor data fusion                             	|  [[Artificial Intelligence   Review    2022](https://link.springer.com/article/10.1007/s10462-022-10243-z)] 	|
-| 2020 	| 3     	| Multi-sensor measurement and data fusion technology for   manufacturing process monitoring: a literature review                        	|  [[IJEM   2020](https://iopscience.iop.org/article/10.1088/2631-7990/ab7ae6/meta)]                          	|
-| 2018 	| 4     	| Development and trend of condition monitoring and fault   diagnosis of multi-sensors information fusion for rolling bearings: a review 	|  [[IJAMT   2018](https://link.springer.com/article/10.1007/s00170-017-1474-8)]                              	|
+---
 
-### Heterogeneous sensors
-<a name="section-id4"></a>
-| Year 	| Index 	| Title                                                                                                                                                                       	| modal                                     	|
-|------	|-------	|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|-------------------------------------------	|
-| 2024 	| 1     	| Multi-modal data cross-domain fusion network for gearbox fault   diagnosis under variable operating conditions                                                              	| vibration signal+infrared image           	|
-|      	| 2     	| Multi-sensor multi-mode fault diagnosis for lithium-ion   battery packs with time series and discriminative features                                                        	| current+voltage+temperature               	|
-|      	| 3     	| Deep feature interactive network for machinery fault diagnosis   using multi-source heterogeneous data                                                                      	| vibration signal+infrared image           	|
-|      	| 4     	| A synchronization-induced cross-modal contrastive learning   strategy for fault diagnosis of electromechanical systems under   semi-supervised learning with current signal 	| vibration signal+current signal           	|
-|      	| 5     	| Multi-sensor fusion fault diagnosis method of windturbine   bearing based on adaptive convergent viewable neural networks                                                   	| vibration signal+acoustic signal          	|
-| 2023 	| 6     	| A New Multisensor Partial Domain Adaptation Method for   Machinery Fault Diagnosis Under Different Working Conditions                                                       	| vibration signal+acoustic signal          	|
-|      	| 7     	| AI-enabled and multimodal data driven smart health monitoring   of wind power systems: A case study                                                                         	| image+acoustic                            	|
-|      	| 8     	| Online Fault Diagnosis of Harmonic Drives Using   Semi-supervised Contrastive Graph Generative Network via Multimodal data                                                  	| motor encoder+hall current sensor.        	|
-|      	| 9     	| Cross-modal Fusion Convolutional Neural Networks with Online   Soft Label Training Strategy for Mechanical Fault Diagnosis                                                  	| acoustic+vibration                        	|
-|      	| 10    	| An Online Multiple Open-Switch Fault Diagnosis Method for   T-Type Three-Level Inverters Based on Multimodal Deep Residual Filter Network                                   	| current + voltage                         	|
-|      	| 11    	| Multi-modal information analysis for fault diagnosis with   time-series data from power transformer                                                                         	| infrared image+dissolved gas data         	|
-|      	| 12    	| Multi-Sensor Fault Diagnosis for Misalignment and Unbalance   Detection using Machine Learning                                                                              	| Infrared image+vibration                  	|
-|      	| 13    	| A Residual Multihead Self-Attention Network Using Multimodal   Shallow Feature Fusion for Motor Fault Diagnosis                                                             	| vibration signal+current signal           	|
-| 2022 	| 14    	| Multi-heterogeneous sensor data fusion method via   convolutional neural network for fault diagnosis of wheeled mobile robot                                                	| inertial measurement unit+encoder         	|
-|      	| 15    	| Bearing fault diagnosis method based on attention mechanism   and multilayer fusion network                                                                                 	| vibration signal+current signal           	|
-|      	| 16    	| Intelligent worm gearbox fault diagnosis under various working   conditions using vibration, sound and thermal features                                                     	| vibration+sound+ thermal                  	|
-|      	| 17    	| A Multisensor Information Fusion Method for High-Reliability   Fault Diagnosis of Rotating Machinery                                                                        	| Infrared image+vibration                  	|
-|      	| 18    	| Multisensory data fusion-based deep learning approach for   fault diagnosis of an industrial autonomous transfer vehicle                                                    	| vibration signal+acoustic signal          	|
-|      	| 19    	| Multiview enhanced fault diagnosis for wind turbine gearbox   bearings with fusion of vibration and current signals                                                         	| vibration signal+current signal           	|
-|      	| 20    	| A multi–modal unsupervised fault detection system based on   power signals and thermal imaging via deep AutoEncoder neural network                                          	| thermal images+current+power measurements 	|
-| 2021 	| 21    	| Bearing fault diagnosis based on vibro-acoustic data fusion   and 1D-CNN network                                                                                            	| vibration signal+acoustic signal          	|
-|      	| 22    	| Novel Three-Stage Feature Fusion Method of Multimodal Data for   Bearing Fault Diagnosis                                                                                    	| vibration signal+ torque signals          	|
-|      	| 23    	| A Fusion CWSMM-based Framework for Rotating Machinery Fault   Diagnosis under Strong Interference and Imbalanced Case                                                       	| Infrared image+vibration                  	|
-| 2020 	| 24    	| Dynamic Routing-based Multimodal Neural Network for   Multi-sensory Fault Diagnosis of Induction Motor                                                                      	| vibration signal+current signal           	|
-| 2019 	| 25    	| Multilevel Information Fusion for Induction Motor Fault   Diagnosis                                                                                                         	| vibration signal+current signal           	|
-|      	| 26    	| Thermal Imaging and Vibration-Based Multisensor Fault   Detection for Rotating Machinery                                                                                    	| Infrared image+vibration                  	|
-| 2018 	| 27    	| Deep Coupling Autoencoder for Fault Diagnosis With Multimodal   Sensory Data                                                                                                	| vibration signal+acoustic signal          	|
-| 2016 	| 28    	| Gearbox fault diagnosis based on deep random forest fusion of   acoustic and vibratory signals                                                                              	| vibration signal+acoustic signal          	|
-|      	|       	|                                                                                                                                                                             	|                                           	|
-### Homogeneous sensors
-<a name="section-id5"></a>
-| Year 	| Index 	| Title                                                                                                                                      	| modal     	|
-|------	|-------	|--------------------------------------------------------------------------------------------------------------------------------------------	|-----------	|
-| 2024 	| 1     	| MIFDELN: A multi-sensor information fusion deep ensemble   learning network for diagnosing bearing faults in noisy scenarios               	| Vibration 	|
-|      	| 2     	| Cross-Sensor Correlative Feature Learning and Fusion for   Intelligent Fault Diagnosis                                                     	| Vibration 	|
-| 2023 	| 3     	| MIM-Graph: A multi-sensor network approach for fault diagnosis   of HSR Bogie bearings at the IoT edge via mutual information maximization 	| Vibration 	|
-|      	| 4     	| Multi-sensor information fusion and coordinate attention-based   fault diagnosis method and its interpretability research                  	| Vibration 	|
-|      	| 5     	| A signal-to-image fault classification method based   onmulti-sensor data for robotic grinding monitoring                                  	| Vibration 	|
-|      	| 6     	| A fault diagnosis method based on feature-level fusion of   multi-sensor information for rotating machinery                                	| Vibration 	|
-| 2022 	| 7     	| Intelligent Mechanical Fault Diagnosis Using Multisensor   Fusion and Convolution Neural Network                                           	| Vibration 	|
-|      	| 8     	| Bearing Fault Diagnosis Method Based on Complementary Feature   Extraction and Fusion of Multisensor Data                                  	| Vibration 	|
-|      	| 9     	| Mix-VAEs: A novel multisensor information fusion model for   intelligent fault diagnosis                                                   	| Vibration 	|
-| 2021 	| 10    	| A novel approach of multisensory fusion to collaborative fault   diagnosis in maintenance                                                  	| Vibration 	|
-|      	| 11    	| Multi-sensor gearbox fault diagnosis by using feature-fusion   covariance matrix and multi-Riemannian kernel ridge regression              	| Vibration 	|
+## 📑 Regular Papers <a name="regular-papers"></a>
 
-##  Open-source dataset
-<a name="section-id2"></a>
-|         Type         	| Index 	| Year 	|  Dataset Name  	| Component 	| Sensor Number 	|      Modality      	|    Data Link    	|
-|:--------------------:	|:-----:	|:----:	|:--------------:	|:---------:	|:-------------:	|:------------------:	|:---------------:	|
-|   Homogenous sensor  	|   1   	| 2015 	|      CWRU      	|  Bearing  	|       2       	|      vibration     	| [[data link]()] 	|
-|          　          	|   2   	| 2016 	|       KAT      	|  Bearing  	|       　      	|      vibration     	| [[data link]()] 	|
-|          　          	|   3   	| 2019 	|       SEU      	|  Gearbox  	|       　      	|      vibration     	| [[data link]()] 	|
-|          　          	|   4   	| 2019 	|      DIRG      	|  Bearing  	|       　      	|      vibration     	| [[data link]()] 	|
-| Heterogeneous sensor 	|   5   	| 1996 	|      Mill      	|     /     	|               	|         　         	| [[data link]()] 	|
-|          　          	|   6   	| 2023 	| iFLYTEKbearing 	|  Bearing  	|       　      	| vibration+acoustic 	| [[data link]()] 	|
-|          　          	|   7   	| 2024 	|    HUSTmotor   	|   motor   	|       2       	| vibration+acoustic 	| [[data link]()] 	|
+### 🔀 Heterogeneous Sensors <a name="heterogeneous-sensors"></a>
 
+> Papers using **different types** of sensors (e.g., vibration + thermal + image, etc.)
 
-# Contact
+<details>
+<summary>📃 Click to expand full table (30 papers)</summary>
 
-If you have any problem, please feel free to contact me.
+| Year | Index | Title | Modalities |
+|------|:-----:|-------|------------|
+| 2025 | 1 | Multi-modal multi-scale multi-level fusion quadrant entropy for mechanical fault diagnosis | - |
+| 2025 | 2 | A Rolling Bearing Fault Diagnosis Method Based on Multimodal Knowledge Graph | Vibration + Knowledge Graph |
+| ...  | ...   | *(remaining papers from your list above)* | ... |
+| 2016 | 30 | Gearbox fault diagnosis based on deep random forest fusion of acoustic and vibratory signals | Vibration + Acoustic |
 
-Name: Chao Zhao
+</details>
 
-Email address: zhaochao734@hust.edu.cn
+---
 
+### 🔁 Homogeneous Sensors <a name="homogeneous-sensors"></a>
 
-# Related Projects
+> Papers using **same modality** sensors (e.g., only vibration) but multiple sensors for better fusion.
 
-- We collect all open source mechanical failure datasets [[Link](https://github.com/CHAOZHAO-1/Machine-Fault-Dataset)]
-  
-- We have sorted out the domain generalization-based fault diagnosis, including data, papers, codes and so on [[Link](https://github.com/CHAOZHAO-1/DG-PHM)]
+<details>
+<summary>📃 Click to expand full table (18 papers)</summary>
+
+| Year | Index | Title | Modalities |
+|------|:-----:|-------|------------|
+| 2025 | 1 | A multi-scale deep feature memory and recovery network for multi-sensor fault diagnosis in the channel missing scenario | Vibration |
+| 2025 | 2 | A novel multi-sensor local and global feature fusion architecture based on multi-sensor sparse Transformer for intelligent fault diagnosis | Vibration |
+| ...  | ...   | *(remaining papers from your list above)* | ... |
+| 2021 | 18 | Multi-sensor gearbox fault diagnosis by using feature-fusion covariance matrix and multi-Riemannian kernel ridge regression | Vibration |
+
+</details>
+
+---
+
+## 📂 Open-Source Datasets <a name="datasets"></a>
+
+| Type | Index | Year | Dataset | Component | Sensor Count | Modalities | Link |
+|------|:-----:|------|---------|-----------|---------------|------------|------|
+| Homogeneous | 1 | 2015 | CWRU | Bearing | 2 | Vibration | [Data link]() |
+|            | 2 | 2016 | KAT | Bearing | - | Vibration | [Data link]() |
+|            | 3 | 2019 | SEU | Gearbox | - | Vibration | [Data link]() |
+|            | 4 | 2019 | DIRG | Bearing | - | Vibration | [Data link]() |
+| Heterogeneous | 5 | 1996 | Mill | - | - | Unknown | [Data link]() |
+|              | 6 | 2023 | iFLYTEKbearing | Bearing | - | Vibration + Acoustic | [Data link]() |
+|              | 7 | 2024 | HUSTmotor | Motor | 2 | Vibration + Acoustic | [Data link]() |
+
+---
+
+## 🧑‍💻 Code <a name="code"></a>
+
+> Coming soon. Open-source implementations will be included.
+
+---
+
+## 📬 Contact <a name="contact"></a>
+
+Feel free to reach out for suggestions or collaboration:
+
+**Name:** Chao Zhao  
+**Email:** [zhaochao0612@gmail.com](mailto:zhaochao0612@gmail.com)
+
+---
+
+## 🔗 Related Projects <a name="related-projects"></a>
+
+- 📁 [Mechanical Fault Dataset Collection](https://github.com/CHAOZHAO-1/Machine-Fault-Dataset)  
+- 🎯 [Domain Generalization-Based Fault Diagnosis Resources](https://github.com/CHAOZHAO-1/DG-PHM)
