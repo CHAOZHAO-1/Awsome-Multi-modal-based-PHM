@@ -1,15 +1,21 @@
-# Awsome-Multi-modal-based-PHM (基于多传感器信息的故障诊断和预测，持续更新)
+# Awsome-Multi-modal-based-PHM (基于多传感器信息的故障诊断和预测)
 
 This repository contains papers, code, and datasets related to multi-modal-based fault diagnosis.  
 
 We will keep updating this library.  
 
+
+# ![Awesome](https://img.shields.io/badge/Awesome-Yes-brightgreen) ![Last update](https://img.shields.io/badge/Last%20update-20250628-blue)
+
+
+
 # Contents
 - [Papers](#section-id1)
 -   - [1.1 Survey](#section-id1)
--   - [1.2 Regular Paper](#section-id4)
--   -   - [1.2.1. Heterogeneous sensors-based Fault Diagnosis](#section-id4)
--   -   - [1.2.2. Homogeneous sensors-based Fault Diagnosis ](#section-id5)
+-   - [1.2 Regular Paper about Fault Diagnosis](#section-id4)
+
+-   -   - [1.2.1. Heterogeneous sensors-based](#section-id4)
+-   -   - [1.2.2. Homogeneous sensors-based](#section-id5)
  
 - [Data](#section-id2)
 
@@ -29,7 +35,7 @@ We will keep updating this library.
 
 ### Heterogeneous sensors
 <a name="section-id4"></a>
-##  Multimodal / Multi-sensor Fault Diagnosis Papers (2016–2025)
+## 📚 Multimodal / Multi-sensor Fault Diagnosis Papers
 
 | Year | Index | Title | Modalities |
 |------|:-----:|-------|------------|
@@ -64,7 +70,7 @@ We will keep updating this library.
 | 2018 | 29 | Deep Coupling Autoencoder for Fault Diagnosis With Multimodal Sensory Data | Vibration signal + Acoustic signal |
 | 2016 | 30 | Gearbox fault diagnosis based on deep random forest fusion of acoustic and vibratory signals | Vibration signal + Acoustic signal |
 
-##  Homogeneous Sensor-Based Fault Diagnosis Papers (2016–2025)
+## 📘 Homogeneous Sensor-Based Fault Diagnosis Papers 
 
 <a name="section-id5"></a>
 
@@ -88,8 +94,6 @@ We will keep updating this library.
 | 2022 | 16 | Mix-VAEs: A novel multisensor information fusion model for intelligent fault diagnosis | Vibration |
 | 2021 | 17 | A novel approach of multisensory fusion to collaborative fault diagnosis in maintenance | Vibration |
 | 2021 | 18 | Multi-sensor gearbox fault diagnosis by using feature-fusion covariance matrix and multi-Riemannian kernel ridge regression | Vibration |
-
-
 
 
 ##  Open-source dataset
